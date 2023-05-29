@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #03045e;
+}
+
+h1{
+    color: white;
+    padding: 0px 5px 10px;
+    border-bottom: 1px dotted yellow;
+}
+
+label{
+    color: white;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 25px 0;
+    text-align: center;
+    background-color: #4361ee;
+}
+
+.input-dados{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+input[type=text]{
+    max-width: 250px;
+    width: 100%;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    outline: none;
+    text-indent: 15px;
+}
+
+input[type=button]{
+    max-width: 100px;
+    width: 100%;
+    background-color: #ffbe0b;
+    padding: 10px 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: #fcbf49;
+}
+
+.saida{
+    background-color: white;
+}
+
+.saida{
+    margin: 15px auto;
+    max-width: 350px;
+    border-radius: 20px;
+    padding: 10px;
+    opacity: 0;
+    box-shadow: 6px 4px 14px 3px rgba(46,46,46,0.25);
+}
+
